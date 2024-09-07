@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: IBM Plex Sans Arabic!important;
+}
+
+.container-fluid{
+    width: 100vw;
+}
+/* header */
+
+.nav-item{
+    font-weight: 500;
+}
+
+.login{
+    color:#57e3d8;
+    background-color: #4f29b7;
+    border-radius: 5px;
+    border: none;
+    height: 5vh;
+    width: 8vw;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.row{
+    border: 1px solid red;
+}
+
+.col{
+    border: 1px solid #57e3d8;
+}
