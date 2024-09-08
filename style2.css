@@ -6,30 +6,162 @@ body {
     font-family: IBM Plex Sans Arabic!important;
 }
 
-.container-fluid{
-    width: 100vw;
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
 }
+
 /* header */
 
-.nav-item{
+.nav-item {
     font-weight: 500;
+    font-size: 1rem; 
 }
 
-.login{
-    color:#57e3d8;
+.login {
+    color: #57e3d8;
     background-color: #4f29b7;
     border-radius: 5px;
     border: none;
-    height: 5vh;
-    width: 8vw;
+    padding: 5px 10px;
     font-weight: 500;
+    font-size: 1rem; 
     cursor: pointer;
 }
 
-.row{
-    border: 1px solid red;
+/* first */
+video {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.col{
-    border: 1px solid #57e3d8;
+.card-1 {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #d3f5d5;
+    border: none;
+    object-fit: cover;
+
+}
+
+.card1-svg {
+    position: absolute;
+    bottom: -9%;
+    left: 0%;
+    overflow: hidden;
+}
+
+.card-2 {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #bed9ff;
+    border: none;
+    object-fit: cover;
+
+}
+
+.card2-svg {
+    position: absolute;
+    bottom: -9%;
+    left: 0%;
+    overflow: hidden;
+}
+
+.card-3 {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #e7ddff;
+    border: none;
+    margin: 0;
+}
+
+.card3-svg {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    overflow: hidden;
+}
+
+/* second */
+.container-2 {
+    width: 70vw;
+}
+
+.container-map {
+    padding: 3vh;
+    border-radius: 15px;
+    background-color: #f3f8ff;
+}
+
+.location-details h1 {
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 2vh;
+    text-align: right;
+    font-size: 1.5rem; 
+}
+
+.location-details p {
+    color: #6c757d;
+    font-size: 1rem; 
+    text-align: right;
+}
+
+.map-container iframe {
+    border-radius: 15px;
+    width: 100%;
+    height: 35vh;
+    border: none;
+}
+
+/* footer */
+.footer {
+    background-color: rgb(227, 216, 255);
+    padding: 4vh;
+    color: #e3d8ff;
+    border-radius: 20px;
+    width: auto;
+}
+
+.footer-links a {
+    color: #5a1db9;
+    font-weight: 500;
+    font-size: 1rem; 
+    text-decoration: none;
+    margin-right: 2vw;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-logo img {
+    width: 15vw;
+}
+
+.social-icons a {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #09070d;
+}
+
+.social-icons a:hover {
+    color: #1d1a21;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.9rem; 
+    color: #7644d5;
 }
